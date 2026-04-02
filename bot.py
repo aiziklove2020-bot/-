@@ -11,7 +11,7 @@ logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=lo
 logger = logging.getLogger(__name__)
 
 BOT_TOKEN = "8557711850:AAHErioOhpd6RrAPB2LQ1VhD4WpMROlKYlM"
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 ADMIN_IDS = [5508757120]
 GROUP_ID = -1002472743528
 
