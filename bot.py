@@ -10,8 +10,8 @@ from groq import Groq
 logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "8557711850:AAHErioOhpd6RrAPB2LQ1VhD4WpMROlKYlM"
-GROQ_API_KEY = "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"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 ADMIN_IDS = [5508757120]
 GROUP_ID = -1002472743528
 
